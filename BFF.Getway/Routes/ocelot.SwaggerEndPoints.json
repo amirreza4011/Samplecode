@@ -1,0 +1,37 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "bffweb",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "BFF.getway",
+          "Version": "1.0",
+          "Url": "http://localhost:5205/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "location",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "user.API",
+          "Version": "1.0",
+          "Url": "http://localhost:5205/location/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "catalog",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "auth.API",
+          "Version": "1.0",
+          "Url": "http://localhost:5205/catalog/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
